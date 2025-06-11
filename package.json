@@ -1,0 +1,32 @@
+{
+  "name": "ddechatbot",
+  "version": "1.0.0",
+  "description": "A library to create bots for ddechat",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ddechat",
+    "bot",
+    "api"
+  ],
+  "author": "puzzling",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "form-data": "^4.0.3",
+    "ws": "^8.18.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PuzzlingGGG/ddechatBot.git"
+  },
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.js"
+    }
+  }
+}
